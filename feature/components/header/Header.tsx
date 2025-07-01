@@ -25,7 +25,7 @@ const Header = () => {
               {HeaderList.map((eachElement) => (
                 <li
                   key={eachElement.id}
-                  className="text-[#757575] cursor-pointer hover:text-[#000000] transition-all duration-300 ease-in-out"
+                  className="text-[#757575] font-semibold cursor-pointer hover:text-[#000000] transition-all duration-300 ease-in-out"
                 >
                   <a href={eachElement.link}>{eachElement.page}</a>
                 </li>
