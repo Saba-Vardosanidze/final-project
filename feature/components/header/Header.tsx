@@ -99,7 +99,7 @@ const Header = () => {
         </div>
       </header>
       <div className="w-full h-[1px] bg-[#E0E0E0]"></div>
-      <motion.div
+      {/* <motion.div
         className="h-dvh w-full bg-[#f6f5f4] z-1 absolut flex items-center justify-center"
         initial={{y: "-150%"}}
         animate={{y: isUp ? "0" : "-150%"}}
@@ -115,7 +115,7 @@ const Header = () => {
             </li>
           ))}
         </ul>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };
