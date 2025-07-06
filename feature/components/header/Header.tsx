@@ -21,7 +21,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div>
+    <div className="relative">
       <header className="lg:py-[24px] py-[13px] relative bg-[#f6f5f4] z-20 overflow-hidden w-full lg:flex lg:justify-center">
         <div className="max-w-[1180px] justify-between w-full flex min-h-[50px] px-[20px] items-center">
           <div>
@@ -99,8 +99,8 @@ const Header = () => {
         </div>
       </header>
       <div className="w-full h-[1px] bg-[#E0E0E0]"></div>
-      {/* <motion.div
-        className="h-dvh w-full bg-[#f6f5f4] z-1 absolut flex items-center justify-center"
+      <motion.div
+        className="h-dvh w-full bg-[red] z-1 absolute flex items-center justify-center"
         initial={{y: "-150%"}}
         animate={{y: isUp ? "0" : "-150%"}}
         transition={{duration: 1}}
@@ -115,7 +115,7 @@ const Header = () => {
             </li>
           ))}
         </ul>
-      </motion.div> */}
+      </motion.div>
     </div>
   );
 };
